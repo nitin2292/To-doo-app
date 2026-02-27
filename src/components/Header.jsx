@@ -1,10 +1,11 @@
-import react from 'react'
+function Header(){
 
-const Header=() => {
     return(
-        <div className='header'>
-            <h1>Todo App</h1>
-        </div>
-    )
+
+        <h1>My Todo App</h1>
+
+    );
+
 }
-export default Header
+
+export default Header;

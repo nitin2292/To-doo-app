@@ -1,8 +1,16 @@
-import react from 'react'
-const Button =()=>
-{ return (
-    <button className='add-btn'>Add todo</button>
-)
+function Button({ addTodo }){
+
+    return(
+
+        <button onClick={addTodo}>
+
+            Add Todo
+
+        </button>
+
+    );
 
 }
-export default Button
+
+export default Button;
+

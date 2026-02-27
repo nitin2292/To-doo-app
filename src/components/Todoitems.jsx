@@ -1,15 +1,10 @@
-import react from 'react'
-const Todoitems =()=>
-{
-    return(
-        <li id="todo-item"  >
-            <span>
-            <input type ='checkbox' /></span>
-            
-            <span> Eat</span> 
-             <span>....</span>
-        
-        </li>
-    )
-} 
- export  default Todoitems 
+function TodoItem({ text }) {
+  return (
+    <li className="todo-item">
+      <input type="checkbox" />
+      {text}
+    </li>
+  );
+}
+
+export default TodoItem;
