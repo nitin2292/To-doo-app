@@ -2,10 +2,12 @@ import react from 'react'
 const Todoitems =()=>
 {
     return(
-        <li>
-            <input type ='checkbox' id="todo-item"/>
-            <p>Eat </p>
-            <p>        ... </p>
+        <li id="todo-item"  >
+            <span>
+            <input type ='checkbox' /></span>
+            
+            <span> Eat</span> 
+             <span>....</span>
         
         </li>
     )
